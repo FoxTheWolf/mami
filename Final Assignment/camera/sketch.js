@@ -1,5 +1,5 @@
 // Density of the ASCII art characters
-const density = "Ñ@#W$9876543210?!abc;:+=-,._        ";
+const density = "Ñ@#W$9876543210?!abc;:+=-,._      ";
 // Zoom level of the video
 const ZOOM = 8;
 
@@ -13,6 +13,7 @@ let asciiDiv;
  */
 function setup() {
   // Create a video capture with the default camera
+  noCanvas();
   video = createCapture(VIDEO);
   // Set the size of the video capture
   video.size(64, 48);
