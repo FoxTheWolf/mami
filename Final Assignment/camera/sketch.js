@@ -1,5 +1,5 @@
 // Density of the ASCII art characters
-const density = "Ñ@#W$9876543210?!abc;:+=-,._      ";
+const density = "█@#W$9876543210?!abc;:+=-,.           ";
 // Zoom level of the video
 const ZOOM = 8;
 
@@ -16,9 +16,10 @@ function setup() {
   noCanvas();
   video = createCapture(VIDEO);
   // Set the size of the video capture
-  video.size(64, 48);
+  video.size(256, 144);
   // Create a div to display the ASCII art
   asciiDiv = createDiv();
+  video.hide();
 }
 
 /**
