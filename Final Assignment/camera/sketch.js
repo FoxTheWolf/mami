@@ -1,5 +1,5 @@
 // Density of the ASCII art characters
-const density = "█@#W$9876543210?!abc;:+=-,.           ";
+const density = "█@#W$9876543210?!abc;:+=-,.    ";
 // Zoom level of the video
 const ZOOM = 8;
 
@@ -43,8 +43,9 @@ function draw() {
       const r = video.pixels[pixelIndex + 0];
       const g = video.pixels[pixelIndex + 1];
       const b = video.pixels[pixelIndex + 2];
+      const a = video.pixels[pixelIndex + 3];
       // Calculate the average color of the pixel
-      const avg = (r + g + b) / 3;
+      const avg = (r + g + b ) / 3;
       // Get the length of the density string
       const len = density.length;
       // Calculate the index of the character in the density string

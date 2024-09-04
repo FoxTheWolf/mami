@@ -3,6 +3,7 @@ let video;
 let asciiDiv;
 let showing = true;
 let playing = true;
+let charColor;
 
 function preload() {
   video = createVideo("example/badapple360.mp4");
@@ -32,6 +33,7 @@ function draw() {
       const len = density.length;
       const charIndex = floor(map(avg, 0, 255, len, 0));
       const c = density.charAt(charIndex);
+      charColor = color(r, g, b, a);
 
       // if (c == " ") asciiImage += "&nbsp;";
       // else

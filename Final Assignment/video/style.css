@@ -3,9 +3,10 @@ html, body {
   padding: 0;
   background-color: black;
   font-family: 'Courier', monospace;
-  font-size: 5pt;
-  color: white;
-  line-height: 4pt;
+  font-size: 10pt;
+  color: charColor;
+  line-height: 8pt;
+
 }
 
 canvas {
