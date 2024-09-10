@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  filter(GRAY);
+  filter(GRAY); 
 }
 
 function processaImagem() {
