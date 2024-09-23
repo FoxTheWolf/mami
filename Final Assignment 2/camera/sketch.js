@@ -1,7 +1,5 @@
 // Density of the ASCII art characters
-const density = "█@#W$9876543210?!abc;:+=-,.    ";
-// Zoom level of the video
-const ZOOM = 8;
+const density = "█@#W$9876543210?!abc;:+=-,.      ";
 
 // Video capture
 let video;
